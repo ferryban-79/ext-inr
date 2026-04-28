@@ -218,18 +218,18 @@ def upload_single_batch(batch_folder: Path):
     log(f"☁️  Upload shuru ...")
 
     cmd = [
-        "rclone", rclone_mode,
-        local_path,
-        remote_dest,
-        "--transfers",         str(UPLOAD_TRANSFERS),
-        "--tpslimit",          "1",    # 👈 YEH ADD KIYA (Transactions Per Second Limit)
-        "--tpslimit-burst",    "1",    # 👈 YEH ADD KIYA (Burst limit bhi 1 kardi taake safe rahay)
-        "--stats",             "15s",
-        "--stats-one-line",
-        "--retries",           "3",
-        "--low-level-retries", "5",
-        "--verbose",
-    ]
+        "rclone", rclone_mode,
+        local_path,
+        remote_dest,
+        "--transfers",         str(UPLOAD_TRANSFERS),
+        "--tpslimit",          "1",    # Transactions Per Second Limit
+        "--tpslimit-burst",    "1",    # Burst limit
+        "--stats",             "15s",
+        "--stats-one-line",
+        "--retries",           "3",
+        "--low-level-retries", "5",
+        "--verbose",
+    ]
 
     log(f"🔧 CMD: {' '.join(cmd)}")
     log_sep("─")
