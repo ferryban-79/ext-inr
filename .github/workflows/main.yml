@@ -52,17 +52,16 @@ jobs:
 # WORKERS — 20 machines ek saath start hoti hain (no extra queue wait)
 # Setup job sirf 30-40 sec leta hai — phir sab parallel chalte hain
 # ─────────────────────────────────────────────────────────────────────
-  extract-and-upload:
+ extract-and-upload:
     name: "🤖 Node ${{ matrix.machine_index }}"
     needs: setup
     runs-on: ubuntu-latest
     timeout-minutes: 350
 
     strategy:
-  fail-fast: false
-  max-parallel: 5   # ← sirf 5 ek waqt mein chalenge
-  matrix: ${{ fromJson(needs.setup.outputs.matrix) }}
-
+      fail-fast: false
+      max-parallel: 5
+      matrix: ${{ fromJson(needs.setup.outputs.matrix) }}
     env:
       MACHINE_INDEX:    ${{ matrix.machine_index }}
       TOTAL_MACHINES:   ${{ needs.setup.outputs.total_machines }}
