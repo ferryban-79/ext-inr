@@ -1,7 +1,7 @@
 name: Universal Extractor & Mega Upload (Matrix)
 
 on:
-  workflow_dispatch:    # ✅ Sirf manual "Run workflow" button se chalega
+  workflow_dispatch:
     inputs:
       total_machines:
         description: 'Kitni machines chahiye? (default: 20, max: 30)'
@@ -12,10 +12,6 @@ on:
         required: false
         default: 'true'
 
-# ─────────────────────────────────────────────────────────────────────
-# SETUP JOB — sirf matrix + outputs banata hai (koi extraction nahi)
-# Ek hi runner lagta hai — baaki 20 seedha start hote hain
-# ─────────────────────────────────────────────────────────────────────
 jobs:
 
   setup:
@@ -30,7 +26,6 @@ jobs:
       - name: "🔢 Build Matrix"
         id: build
         run: |
-          # workflow_dispatch se lo, push trigger pe default 20
           MACHINES="${{ github.event.inputs.total_machines }}"
           MACHINES="${MACHINES:-20}"
           if [ "$MACHINES" -gt 30 ]; then MACHINES=30; fi
@@ -41,18 +36,13 @@ jobs:
           echo "total_machines=$MACHINES" >> $GITHUB_OUTPUT
           echo "zip_enabled=$ZIP"         >> $GITHUB_OUTPUT
 
-          # [0, 1, 2 ... N-1] array
           INDICES=$(python3 -c "import json; n=int('$MACHINES'); print(json.dumps(list(range(n))))")
           echo "matrix={\"machine_index\":$INDICES}" >> $GITHUB_OUTPUT
 
           echo "✅ Machines: $MACHINES | ZIP: $ZIP"
           echo "📋 Matrix: $INDICES"
 
-# ─────────────────────────────────────────────────────────────────────
-# WORKERS — 20 machines ek saath start hoti hain (no extra queue wait)
-# Setup job sirf 30-40 sec leta hai — phir sab parallel chalte hain
-# ─────────────────────────────────────────────────────────────────────
- extract-and-upload:
+  extract-and-upload:
     name: "🤖 Node ${{ matrix.machine_index }}"
     needs: setup
     runs-on: ubuntu-latest
@@ -62,6 +52,7 @@ jobs:
       fail-fast: false
       max-parallel: 5
       matrix: ${{ fromJson(needs.setup.outputs.matrix) }}
+
     env:
       MACHINE_INDEX:    ${{ matrix.machine_index }}
       TOTAL_MACHINES:   ${{ needs.setup.outputs.total_machines }}
