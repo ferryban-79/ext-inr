@@ -59,8 +59,9 @@ jobs:
     timeout-minutes: 350
 
     strategy:
-      fail-fast: false
-      matrix: ${{ fromJson(needs.setup.outputs.matrix) }}
+  fail-fast: false
+  max-parallel: 5   # ← sirf 5 ek waqt mein chalenge
+  matrix: ${{ fromJson(needs.setup.outputs.matrix) }}
 
     env:
       MACHINE_INDEX:    ${{ matrix.machine_index }}
