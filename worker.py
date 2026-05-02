@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-worker.py — Matrix Node Worker  [INSTAPOOL VERSION]
+worker.py — Matrix Node Worker (Updated for Direct Account Upload)
   --mode extract  : Apni assigned JSON files extract karo
-  --mode upload   : Extracted Batch folder instapool pe upload karo
+  --mode upload   : Extracted Batch folder Mega pe upload karo
 
 Env vars (GitHub Actions se aate hain):
   MACHINE_INDEX    : 0-based index (0, 1, 2 ...)
@@ -10,11 +10,6 @@ Env vars (GitHub Actions se aate hain):
   ZIP_ENABLED      : true/false
   ZIP_FILE_LIMIT   : files count threshold for zipping (default 1300)
   UPLOAD_TRANSFERS : rclone --transfers value (default 2)
-
-POOL CHANGE LOG:
-  - Remote: "ext:" → "instapool:" (MEGA union pool)
-  - Upload folder: "Extracted_Data" → "Insta_Extracted"
-  - Pool auto-rotates accounts jab koi 18GB tak pahunche
 """
 
 import os
@@ -37,11 +32,6 @@ TOTAL_MACHINES   = int(os.environ.get("TOTAL_MACHINES",  "1"))
 ZIP_ENABLED      = os.environ.get("ZIP_ENABLED",  "true").lower() == "true"
 ZIP_FILE_LIMIT   = int(os.environ.get("ZIP_FILE_LIMIT",  "1300"))
 UPLOAD_TRANSFERS = int(os.environ.get("UPLOAD_TRANSFERS", "2"))
-
-# ── POOL CONFIG ─────────────────────────────────────────────────────
-RCLONE_REMOTE   = "instapool"          # <-- instapool (TikTok wala "megapool" tha)
-UPLOAD_FOLDER   = "Insta_Extracted"    # MEGA par folder naam
-# ────────────────────────────────────────────────────────────────────
 
 BASE_DIR      = Path(".")
 INPUTS_DIR    = BASE_DIR / "Inputs"
@@ -78,11 +68,6 @@ def get_my_files() -> list[Path]:
     Sari JSON files lo, phir sirf apni wali lo.
     
     Formula: file_index % TOTAL_MACHINES == MACHINE_INDEX
-    
-    Example (20 machines, 100 files):
-      Node 0  → files[0, 20, 40, 60, 80]
-      Node 1  → files[1, 21, 41, 61, 81]
-      Node 19 → files[19, 39, 59, 79, 99]
     """
     all_files = sorted(
         list(INPUTS_DIR.glob("*.json")) +
@@ -124,8 +109,8 @@ def run_extraction(my_files: list[Path]):
 
     # Original extraction script chalao — env vars pass karo
     env = os.environ.copy()
-    env["MAX_WORKERS"]    = str(MAX_WORKERS)
-    env["OUTPUT_FOLDER"]  = str(BATCH_FOLDER)
+    env["MAX_WORKERS"]    = str(MAX_WORKERS)      # 30 workers
+    env["OUTPUT_FOLDER"]  = str(BATCH_FOLDER)     # is node ka batch folder
     env["INPUT_FOLDER"]   = str(DATASETS_DIR)
 
     log(f"🚀 Extraction script chala raha hun (MAX_WORKERS={MAX_WORKERS})...")
@@ -176,7 +161,7 @@ def zip_batch_folder(folder: Path) -> Path:
 #  UPLOAD MODE
 # ════════════════════════════════════════════════════════════════════
 def run_upload():
-    log_header(f"UPLOAD MODE — {RCLONE_REMOTE} pool pe bhejenge")
+    log_header(f"UPLOAD MODE — Mega pe bhejenge (Direct Node Account)")
 
     # Is node ka batch folder dhoondo
     batch_dirs = sorted(BASE_DIR.glob(f"Batch--*--node{MACHINE_INDEX}"))
@@ -218,26 +203,23 @@ def upload_single_batch(batch_folder: Path):
         local_path    = str(batch_folder)
         rclone_mode   = "copy"     # folder
 
-    # ── POOL DESTINATION ────────────────────────────────────────────
-    # instapool auto-rotate karta hai accounts mein (18GB limit per account)
-    # Jab aik account bhar jaye, next account automatically use hota hai
-    remote_dest = f"{RCLONE_REMOTE}:{UPLOAD_FOLDER}/{remote_name}"
-    # ────────────────────────────────────────────────────────────────
+    # 🚀 NAYA LOGIC: Har Node Apne Index Ke Mutabiq Account Use Karega (0 se 48 tak wrap hoga)
+    acc_id = MACHINE_INDEX % 49  
+    remote_dest = f"insta_acc_{acc_id}:Insta_Extracted/{remote_name}"
 
-    log(f"☁️  Pool         : {RCLONE_REMOTE} (auto-rotates MEGA accounts)")
-    log(f"☁️  Upload type  : {upload_type}")
-    log(f"☁️  Local        : {local_path}")
-    log(f"☁️  Remote       : {remote_dest}")
-    log(f"☁️  Transfers    : {UPLOAD_TRANSFERS}")
+    log(f"☁️  Account    : insta_acc_{acc_id}")
+    log(f"☁️  Upload type: {upload_type}")
+    log(f"☁️  Local      : {local_path}")
+    log(f"☁️  Remote     : {remote_dest}")
+    log(f"☁️  Transfers  : {UPLOAD_TRANSFERS}")
     log(f"☁️  Upload shuru ...")
 
+    # 🚀 NAYA LOGIC: tpslimit flags hata diye gaye hain taake API timeout block na kare
     cmd = [
         "rclone", rclone_mode,
         local_path,
         remote_dest,
         "--transfers",         str(UPLOAD_TRANSFERS),
-        "--tpslimit",          "1",
-        "--tpslimit-burst",    "1",
         "--stats",             "15s",
         "--stats-one-line",
         "--retries",           "3",
@@ -252,12 +234,12 @@ def upload_single_batch(batch_folder: Path):
 
     log_sep("─")
     if result.returncode == 0:
-        log(f"✅ UPLOAD SUCCESS → {RCLONE_REMOTE}:{UPLOAD_FOLDER}/{remote_name}")
+        log(f"✅ UPLOAD SUCCESS: {remote_name} on account insta_acc_{acc_id}")
     else:
         log(f"❌ UPLOAD FAILED (exit {result.returncode}): {remote_name}")
         sys.exit(1)
 
-    # ZIP file cleanup
+    # ZIP file cleanup (optional — disk space bachao)
     if should_zip and upload_target.exists() and upload_target.suffix == ".zip":
         upload_target.unlink()
         log(f"🧹 ZIP deleted (disk clean): {upload_target.name}")
@@ -272,7 +254,6 @@ def main():
 
     log_header(f"WORKER START — mode={args.mode.upper()}")
     log(f"  Machine      : {MACHINE_INDEX} / {TOTAL_MACHINES}")
-    log(f"  Pool         : {RCLONE_REMOTE}  →  MEGA:{UPLOAD_FOLDER}/")
     log(f"  ZIP enabled  : {ZIP_ENABLED}")
     log(f"  ZIP limit    : {ZIP_FILE_LIMIT} files")
     log(f"  Transfers    : {UPLOAD_TRANSFERS}")
