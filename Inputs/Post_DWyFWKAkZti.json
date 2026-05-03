@@ -1,0 +1,401 @@
+{
+    "__typename": "XDTGraphVideo",
+    "__isXDTGraphMediaInterface": "XDTGraphVideo",
+    "id": "3869178542672681826",
+    "shortcode": "DWyFWKAkZti",
+    "thumbnail_src": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-15/659571823_17853317685642079_7595366913901937629_n.jpg?stp=c0.210.540.540a_dst-jpg_e15_tt6&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=TLW70qqMsrUQ7kNvwGFQhDy&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af56iAyjg4s0QVLwA9V9POVMZqFmSW79khva1gLHFnljYw&oe=69FC5546&_nc_sid=d885a2",
+    "dimensions": {
+        "height": 1137,
+        "width": 640
+    },
+    "gating_info": null,
+    "fact_check_overall_rating": null,
+    "fact_check_information": null,
+    "sensitivity_friction_info": null,
+    "sharing_friction_info": {
+        "should_have_sharing_friction": false,
+        "bloks_app_url": null
+    },
+    "media_overlay_info": null,
+    "media_preview": "ABgqyY41QZPBPQZ/Ik/0yPSkcKwweucZ9PT6j1/SnxkY3DjBPHX9KhmkXJxwTUXZ2uMUr9Lf1+IyOPJwfp+NFWrdFlI3df0J/wDr9KKN+41FJdH8rkcaqeW/i7+h9/8APWqbjBNTb2TK5xULZPNNGM2mrdV/T/EVGKnI7UU1etFDFCUktHYkmcMeO361EGxSmm0zNtt3H5yc0U0UUBuf/9k=",
+    "display_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-15/659571823_17853317685642079_7595366913901937629_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=TLW70qqMsrUQ7kNvwGFQhDy&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af6W59jvrZwqV4240AsNN80Rm1UoZIZajF0AIAOnZCQY1w&oe=69FC5546&_nc_sid=d885a2",
+    "display_resources": [
+        {
+            "src": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-15/659571823_17853317685642079_7595366913901937629_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi41NDB4OTYwLnNkci5mODI3ODcuZGVmYXVsdF9jb3Zlcl9mcmFtZS5jMiJ9&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=TLW70qqMsrUQ7kNvwGFQhDy&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af6W59jvrZwqV4240AsNN80Rm1UoZIZajF0AIAOnZCQY1w&oe=69FC5546&_nc_sid=d885a2",
+            "config_width": 640,
+            "config_height": 1137
+        },
+        {
+            "src": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-15/659571823_17853317685642079_7595366913901937629_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi41NDB4OTYwLnNkci5mODI3ODcuZGVmYXVsdF9jb3Zlcl9mcmFtZS5jMiJ9&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=TLW70qqMsrUQ7kNvwGFQhDy&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af6W59jvrZwqV4240AsNN80Rm1UoZIZajF0AIAOnZCQY1w&oe=69FC5546&_nc_sid=d885a2",
+            "config_width": 750,
+            "config_height": 1333
+        },
+        {
+            "src": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-15/659571823_17853317685642079_7595366913901937629_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi41NDB4OTYwLnNkci5mODI3ODcuZGVmYXVsdF9jb3Zlcl9mcmFtZS5jMiJ9&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=TLW70qqMsrUQ7kNvwGFQhDy&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af6W59jvrZwqV4240AsNN80Rm1UoZIZajF0AIAOnZCQY1w&oe=69FC5546&_nc_sid=d885a2",
+            "config_width": 1080,
+            "config_height": 1920
+        }
+    ],
+    "accessibility_caption": null,
+    "dash_info": {
+        "is_dash_eligible": true,
+        "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT5.033333S\" FBManifestTimestamp=\"1777763899\" FBManifestIdentifier=\"FvaYtJ8NGBJyMmV2ZXZwOS1yMWdlbjJ2cDkZNs6F4YrHqZUD7J/MgJ6lxASIwJu84r/FBiIYGGRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsGRgObW9kZXJhdGVfaGVhdnkAFjQUABIUAgA=\"><Period id=\"0\" duration=\"PT5.033333S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"11:13\" FBUnifiedUploadResolutionMos=\"360:69.6\"><Representation id=\"1276073170536438v\" bandwidth=\"168576\" codecs=\"vp09.00.21.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q80\" FBContentLength=\"106063\" FBPlaybackResolutionMos=\"0:100,360:98.2,436:97.9\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.9,436:96.9,480:96.9,720:96.9,1080:96.9\" FBAbrPolicyTags=\"\" width=\"436\" height=\"516\" frameRate=\"15360/512\" FBQualityClass=\"sd\" FBQualityLabel=\"270p\"><BaseURL>https://instagram.fskt3-1.fna.fbcdn.net/o1/v/t2/f2/m367/AQM3bJhKILXCkqdWf2o4K89q7_8VhaMtXMnQFAGY-U78OjEz_OGh9eY07qsq_TKhwl2OWWR9fSvcLFHnzIPZPIZ3KLgGCtk2gNNVLb4.mp4?_nc_cat=104&amp;_nc_oc=Adp2KZnspXRgOgKyIwsz5d9lLnQPxf4TaYQzFBoWRN7Cf2lotidouSVB1WF4usv9aNM&amp;_nc_sid=9ca052&amp;_nc_ht=instagram.fskt3-1.fna.fbcdn.net&amp;_nc_ohc=qfDHx_oihQcQ7kNvwEMnwyh&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzg1MzMxNzU4MzY0MjA3OSwiYXNzZXRfYWdlX2RheXMiOjI2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NSwiYml0cmF0ZSI6MTY4NTc2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_gid=tMl8DphzpUksQGoxL5cc8w&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af6H8DrDWePC0JybYRCqMo2PPVL6F4UlPhimR2J44yCDjA&amp;oe=69FC7099</BaseURL><SegmentBase indexRange=\"818-873\" timescale=\"15360\" FBMinimumPrefetchRange=\"874-50478\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"874-88556\" FBFirstSegmentRange=\"874-91063\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"91064-106062\" FBPrefetchSegmentRange=\"874-91063\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1841678013132804v\" bandwidth=\"179850\" codecs=\"vp09.00.21.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q90\" FBContentLength=\"113156\" FBPlaybackResolutionMos=\"0:100,360:98.3,436:98\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97,436:96.9,480:96.9,720:96.9,1080:96.9\" FBAbrPolicyTags=\"\" width=\"436\" height=\"516\" frameRate=\"15360/512\" FBQualityClass=\"sd\" FBQualityLabel=\"360p\"><BaseURL>https://instagram.fskt3-1.fna.fbcdn.net/o1/v/t2/f2/m367/AQPXeHWNlw9TJ8Rm8TMnIlQD27iK5M-EWkjZmVb_naUX_0h-kpON3nz4AfkQUeTRHGVxrW-VDSGx9UBXg1BzK2RaQMXnaVOL9WTNyLM.mp4?_nc_cat=103&amp;_nc_oc=AdqJ6Vw8SwoVUal4wl3TBVR-S9ED3E9LlvNE-vi2GBBl6-xeFynG8fpdzB04zao4Zwk&amp;_nc_sid=9ca052&amp;_nc_ht=instagram.fskt3-1.fna.fbcdn.net&amp;_nc_ohc=V6IC4YC5inAQ7kNvwEKVowv&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzg1MzMxNzU4MzY0MjA3OSwiYXNzZXRfYWdlX2RheXMiOjI2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NSwiYml0cmF0ZSI6MTc5ODUwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_gid=tMl8DphzpUksQGoxL5cc8w&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af6Rk0UGzGuGZGDCKLrfXt5MsdHzBBf3J9ZTPbEwrRasVQ&amp;oe=69FC583C</BaseURL><SegmentBase indexRange=\"818-873\" timescale=\"15360\" FBMinimumPrefetchRange=\"874-52974\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"874-94564\" FBFirstSegmentRange=\"874-97358\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"97359-113155\" FBPrefetchSegmentRange=\"874-97358\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"891318333874535a\" bandwidth=\"74367\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"74367\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBContentLength=\"47515\" FBPaqMos=\"93.25\" FBAbrPolicyTags=\"\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://instagram.fskt3-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPqKa7RJswLblOH8gXsPRYgCZxJSHUprBtidll1vDTLP6YO4Bpdnxk9wUz8YLfhYxrNLLWJ1Cm_wGcz6fWqBRJ6FZf991lZqfaVRwM.mp4?_nc_cat=110&amp;_nc_oc=Adp_MV7IGIDO-Hc_iUnqNJzinots9Li9NWtgnVjxcxq8eoFv5n9MdQ4m_O6TJhM6tvU&amp;_nc_sid=9ca052&amp;_nc_ht=instagram.fskt3-1.fna.fbcdn.net&amp;_nc_ohc=LDQlxRGix8kQ7kNvwF16-xo&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzg1MzMxNzU4MzY0MjA3OSwiYXNzZXRfYWdlX2RheXMiOjI2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NSwiYml0cmF0ZSI6NzU3ODgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;_nc_gid=tMl8DphzpUksQGoxL5cc8w&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af7kh2BGTOtCSH3Ghl7XZryPJw3epBkX3fwgCZXH0C5fNw&amp;oe=69F86027</BaseURL><SegmentBase indexRange=\"824-891\" timescale=\"44100\" FBMinimumPrefetchRange=\"892-1235\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"892-22389\" FBFirstSegmentRange=\"892-19063\" FBFirstSegmentDuration=\"2021\" FBSecondSegmentRange=\"19064-38040\" FBPrefetchSegmentRange=\"892-38040\" FBPrefetchSegmentDuration=\"4017\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+        "number_of_qualities": 2
+    },
+    "has_audio": true,
+    "video_url": "https://instagram.fskt3-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQN7-aNYKBUf2uKOX5wqWCHylxvb10ERpUsrIBTnz-KrnPKaiKRCnHAMXwA8R8fBLeUtkiC3XbfUrYynZAXo-kVFbBuoUp1n522pg4U.mp4?_nc_cat=100&_nc_oc=AdpeA4a5ggZ2Z-I1OyPWoYo5PC8UU81KdG3Omt3z0yB0vWPk8iRA7vekUJT41nVOPDE&_nc_sid=5e9851&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_ohc=lwi7O2yP6DIQ7kNvwFO3WCK&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMzYwLmRhc2hfYmFzZWxpbmVfM192MSIsInhwdl9hc3NldF9pZCI6MTc4NTMzMTc1ODM2NDIwNzksImFzc2V0X2FnZV9kYXlzIjoyNiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b9d851cfa710f226&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BODRGMDVBRkU0MTUyQUQ0Mzc0OURDRjlBQUY0ODFBRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I0NEVDNTA4MDY4NzI0RTg1NUIwNkI1RTdBNzI2RUE0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa-95TK7d-2PxUCKAJDMywXQBQhysCDEm8YEmRhc2hfYmFzZWxpbmVfM192MREAdf4HZeadAQA&_nc_gid=tMl8DphzpUksQGoxL5cc8w&_nc_ss=7a22e&_nc_zt=28&oh=00_Af6V7idDN974C4AujiDztNYTcZcduxsQ-rqdSvNK8uZbVA&oe=69F87455",
+    "video_view_count": 2078260,
+    "video_play_count": 7521302,
+    "encoding_status": null,
+    "is_published": true,
+    "product_type": "clips",
+    "title": "",
+    "video_duration": 5.033,
+    "clips_music_attribution_info": {
+        "artist_name": "ryanbasdao",
+        "song_name": "TURBO TWINSZ (SCHIZO)",
+        "uses_original_audio": true,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "26585662061064868"
+    },
+    "is_video": true,
+    "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiZWIzYTVjODJkZTg5NDVlMjk1ODIxOThlOTYzNDE3OWUzODY5MTc4NTQyNjcyNjgxODI2In0sInNpZ25hdHVyZSI6IiJ9",
+    "upcoming_event": null,
+    "edge_media_to_tagged_user": {
+        "edges": []
+    },
+    "owner": {
+        "id": "79395546078",
+        "username": "martinitoons",
+        "is_verified": false,
+        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/684115267_17855282442642079_2837734745502324980_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=WUv0vI8j2pwQ7kNvwHc7J7N&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af7IOY3PTpiKXVlVmxrKZZCGxO6Rladsbmuh5DqY5E_pTA&oe=69FC740B&_nc_sid=d885a2",
+        "blocked_by_viewer": false,
+        "restricted_by_viewer": null,
+        "followed_by_viewer": false,
+        "full_name": "Martinitoons",
+        "has_blocked_viewer": false,
+        "is_embeds_disabled": false,
+        "is_private": false,
+        "is_unpublished": false,
+        "requested_by_viewer": false,
+        "pass_tiering_recommendation": true,
+        "edge_owner_to_timeline_media": {
+            "count": 2529
+        },
+        "edge_followed_by": {
+            "count": 35312
+        }
+    },
+    "edge_media_to_caption": {
+        "edges": [
+            {
+                "node": {
+                    "created_at": "1775462097",
+                    "text": "This viral exchange perfectly captures the age-old debate regarding how early exposure to specific operating systems shapes our cognitive development and technical troubleshooting abilities. The original poster, Annie, suggests a correlation study between children raised on Mac versus Windows computers to see if one leads to higher tech illiteracy or weaker problem-solving skills later in life. The underlying theory is that \"walled garden\" ecosystems might stifle the curiosity required to understand how systems actually function. However, the thread takes a hilarious and sharp turn when a user mentions installing Linux at age twelve—a feat of digital endurance that usually involves hours of troubleshooting and terminal commands. Annie’s quick-witted reply about excluding certain demographics from the study to avoid skewing the data highlights a popular internet trope: the \"tech wizard\" archetype. It’s a witty commentary on how we learn to navigate the digital world and the different paths to computer literacy.\n#TechHumor #LinuxUser #MacVsWindows #ComputerScience #InternetCulture",
+                    "id": "18088652581977093"
+                }
+            }
+        ]
+    },
+    "can_see_insights_as_brand": false,
+    "caption_is_edited": false,
+    "has_ranked_comments": false,
+    "like_and_view_counts_disabled": false,
+    "edge_media_to_parent_comment": {
+        "count": 1341,
+        "page_info": {
+            "has_next_page": true,
+            "end_cursor": "{\"server_cursor\": \"QVFBUlNkNW1fcC1ubmZXTk1GYXhUb3dJdGtBeGY3QzlMeEx0SVpSbkY1WG5ocW0wSmVrbG9KSDFaWUd6eWlrU1JaVEtlVlQyOWFyNDZSd3pCSGdhRUxyYg==\", \"is_server_cursor_inverse\": true}"
+        },
+        "edges": [
+            {
+                "node": {
+                    "id": "17873622861602804",
+                    "text": "Mac is college windows is getting a job and linux is being a nepo baby",
+                    "created_at": 1777759881,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "80415363534",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/619734263_17842226127683535_2586790167931402991_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=sbN6qjXJtpIQ7kNvwEpjQuf&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af4Qw6pCP1zmTM2v2bi5ycTiQoKMjVcI5RZlZgNOG8nj8A&oe=69FC5498&_nc_sid=d885a2",
+                        "username": "aslan.a.13"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": "17883856407550372",
+                    "text": "@iamdubyavee wait to open windows and waste a zillion hours getting the os upload and downloading security and other packages 🤢 debian>>>>>windoors",
+                    "created_at": 1777744517,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "2208103064",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/571326336_18486486778079065_5005015481985949608_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=n5mRIMPymkAQ7kNvwFYbLLA&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af6BV3D23dwJFsLzEwdJoMmEX5sJ72p00AzmmTOuuAi8rQ&oe=69FC455C&_nc_sid=d885a2",
+                        "username": "drojasliz"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": "18013603088846646",
+                    "text": "Started with Mac and not I build PCs for fun",
+                    "created_at": 1777738411,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "4525938384",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/599892966_18385276552146385_329155492274190210_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41NzYuYzIifQ&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=ikS4PpYE_CYQ7kNvwFlFzST&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af4gvXj7QTrPdFsFlYKt7bDXCFeWXG2vFnoLQnZGhaEn8A&oe=69FC5B0F&_nc_sid=d885a2",
+                        "username": "that_one_w_e_e_b"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": "18582077734016728",
+                    "text": "“Oh crap, all we did was correlate the socio-economic status of their parents didn’t we”\n“Yup, we did it again”",
+                    "created_at": 1777732023,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "5536930855",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.2885-19/462386127_388505197528611_1668377823113222137_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDM0LmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=H_k1JMXe8CkQ7kNvwH-Yyuq&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af7D-g6iOBFZt_aSanpSWpFP00lYg0gREDZNZw5jTJ5IGQ&oe=69FC53D1&_nc_sid=d885a2",
+                        "username": "luke_epley"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": "18107866399903836",
+                    "text": "Windows has been a pile of garbage since before Windows 7. A lot of pre-built PC hardware sucks. I refuse to spend any money on a Dell, HP, or Acer plastic piece of shit that comes with McAfee, copilot, and all the bullshit pre-installed. Windows is ONLY good for gaming these days and even then Valve’s proton layer is so good you almost don’t even need Windows anymore. I installed Bazzite and CachyOS on the PC I built and never went back to windows. \n\nAlso if you’re an actual developer who uses terminal any Unix based OS (MacOS or Linux) is much better than DOS in my opinion.",
+                    "created_at": 1777729288,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "5431042",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.2885-19/310834192_791592281894722_6676132419813812610_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=iJE-2NORe4QQ7kNvwE8R09G&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af6cZwW13c3JgPOSq5wTX6OK3CBkl_0VIeg5c7j0Qyz8tA&oe=69FC42CB&_nc_sid=d885a2",
+                        "username": "weispaints"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": "17881381959413686",
+                    "text": "How’d she knew? 😂",
+                    "created_at": 1777714600,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "4927937305",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/642548926_18363145987161306_6726407255822210745_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=OAqwlIxjMaoQ7kNvwEJ7GMP&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af7-Dx77vPA-TCFLd1Z2suYm5bqYHOnVsCw0Keljt02e1A&oe=69FC6D28&_nc_sid=d885a2",
+                        "username": "toxiclally"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": "17880629553562169",
+                    "text": "A Mac in the 90s was the same as Nintendo or Sega. Just plug and play",
+                    "created_at": 1777714102,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "605900",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/614896615_18560329930029901_2746750954690761259_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=ITUs34OTBvEQ7kNvwE1MhN1&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af5yG8DaPfqix9elemt_pyq3a-M3p1o55xzlx9H7csCmCA&oe=69FC3DF5&_nc_sid=d885a2",
+                        "username": "cariannxxx"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": "18075732440645835",
+                    "text": "",
+                    "created_at": 1777712684,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "1389964336",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.2885-19/69473706_2398331140493916_5438412788491878400_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zMjAuYzIifQ&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=AeXvF-V7ynUQ7kNvwEk9xBE&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af67IusU0X-zSh2--E1BoN12P8EIoQOfPrH-_4XueKygNg&oe=69FC4D93&_nc_sid=d885a2",
+                        "username": "o_narts"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false,
+                    "edge_threaded_comments": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            }
+        ]
+    },
+    "edge_media_to_hoisted_comment": {
+        "edges": []
+    },
+    "edge_media_preview_comment": {
+        "count": 1341,
+        "edges": [
+            {
+                "node": {
+                    "id": "17873622861602804",
+                    "text": "Mac is college windows is getting a job and linux is being a nepo baby",
+                    "created_at": 1777759881,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "80415363534",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/619734263_17842226127683535_2586790167931402991_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=sbN6qjXJtpIQ7kNvwEpjQuf&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af4Qw6pCP1zmTM2v2bi5ycTiQoKMjVcI5RZlZgNOG8nj8A&oe=69FC5498&_nc_sid=d885a2",
+                        "username": "aslan.a.13"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false
+                }
+            },
+            {
+                "node": {
+                    "id": "18410291098198994",
+                    "text": "@jonathan_andrews183 walk in to any major recording studio, animation studio, or editing bay. You’re an idiot.",
+                    "created_at": 1777760043,
+                    "did_report_as_spam": false,
+                    "owner": {
+                        "id": "37343704",
+                        "is_verified": false,
+                        "profile_pic_url": "https://instagram.fskt3-1.fna.fbcdn.net/v/t51.82787-19/662658679_18577049656031705_7953404560063834888_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44OTQuYzIifQ&_nc_ht=instagram.fskt3-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2gHl0p5JA1yVc31RnqB6_xN8LCt5q1cFskd6Abtx5FYsjrEzhNp0Evhk56ynUX3bBPw&_nc_ohc=oRrLdPtj3uIQ7kNvwE1YZV8&_nc_gid=tMl8DphzpUksQGoxL5cc8w&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af5ohyaBpos7UEQE8mvGtYIF7S_StgxZ9OOAWgyRjk5sQw&oe=69FC42FD&_nc_sid=d885a2",
+                        "username": "timothydanielob"
+                    },
+                    "viewer_has_liked": false,
+                    "edge_liked_by": {
+                        "count": 0
+                    },
+                    "is_restricted_pending": false
+                }
+            }
+        ]
+    },
+    "comments_disabled": false,
+    "commenting_disabled_for_viewer": false,
+    "taken_at_timestamp": 1775462095,
+    "edge_media_preview_like": {
+        "count": 224975,
+        "edges": []
+    },
+    "edge_media_to_sponsor_user": {
+        "edges": []
+    },
+    "is_affiliate": false,
+    "is_paid_partnership": false,
+    "location": null,
+    "nft_asset_info": null,
+    "viewer_has_liked": false,
+    "viewer_has_saved": false,
+    "viewer_has_saved_to_collection": false,
+    "viewer_in_photo_of_you": false,
+    "viewer_can_reshare": true,
+    "is_ad": false,
+    "edge_web_media_to_related_media": {
+        "edges": []
+    },
+    "coauthor_producers": [],
+    "pinned_for_users": []
+}
