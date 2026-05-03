@@ -12,6 +12,10 @@ on:
         required: false
         default: 'true'
 
+# 🚀 GIT PUSH ke liye ye permission lazmi hai (Summary CSV commit karne ke liye)
+permissions:
+  contents: write
+
 # ─────────────────────────────────────────────────────────────────────
 # SETUP JOB — sirf matrix + outputs banata hai (koi extraction nahi)
 # Ek hi runner lagta hai — baaki 20 seedha start hote hain
@@ -101,3 +105,40 @@ jobs:
 
       - name: "☁️ Upload to Mega — Node ${{ matrix.machine_index }}"
         run: python worker.py --mode upload
+
+      # 🚀 NAYA STEP: Upload Node Report as Artifact
+      - name: "📊 Upload Node Report"
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodereport-${{ matrix.machine_index }}
+          path: NodeReport_*.json
+          if-no-files-found: ignore
+
+# ─────────────────────────────────────────────────────────────────────
+# SUMMARY JOB — Sab nodes khatam hone ke baad ledger merge karega
+# ─────────────────────────────────────────────────────────────────────
+  summary_job:
+    name: "📝 Compile Master Summary"
+    needs: extract-and-upload
+    runs-on: ubuntu-latest
+    if: always() # Ye tab bhi chalega agar koi Node fail ho jaye
+    steps:
+      - name: "📥 Checkout"
+        uses: actions/checkout@v4
+
+      - name: "🐍 Python Setup"
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: "⬇️ Download all Node Reports"
+        uses: actions/download-artifact@v4
+        with:
+          path: ./reports
+          merge-multiple: true
+
+      - name: "📁 Move reports to root"
+        run: mv ./reports/*.json ./ || true
+
+      - name: "📊 Run Summary Reporter"
+        run: python summary_reporter.py
