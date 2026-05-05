@@ -55,3 +55,5 @@ Timestamp,Node,Batch_Folder,Primary_Assigned_Acc,Final_Uploaded_Acc,Status,Files
 2026-05-05 21:00:50,4,Batch--2026-05-05--node4,insta_acc_4,insta_acc_4,SUCCESS,94
 2026-05-05 21:00:07,2,Batch--2026-05-05--node2,insta_acc_2,insta_acc_2,SUCCESS,64
 2026-05-05 21:00:59,3,Batch--2026-05-05--node3,insta_acc_3,insta_acc_3,SUCCESS,97
+2026-05-05 21:15:14,0,Batch--2026-05-05--node0,insta_acc_0,insta_acc_0,SUCCESS,33
+2026-05-05 21:15:36,1,Batch--2026-05-05--node1,insta_acc_1,insta_acc_1,SUCCESS,36
